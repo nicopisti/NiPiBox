@@ -1,0 +1,153 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #f77f00;
+}
+
+nav .brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+
+.nav-wrapper {
+    padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #f77f00;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+.section-intro {
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+  margin-top: 15%;
+  margin-bottom: 5%;
+  color: #eae2b7;
+}
+
+.header-subtitle{
+  margin-top: 10%;
+  font-size: 2em;
+  color: #eae2b7;
+}
+
+.registrazione-subtitle{
+  margin-top: 10%;
+  font-size: 2em;
+  color: #eae2b7;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+   .nav-wrapper {
+    padding: 0 10px;
+  }
+}
+
+.col-Servizio {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: 200%;
+}
+
+#Servizio p {
+  line-height: 1.6em;
+}
+
+.registrazione-icon {
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+.section-registrazione {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-registrazione {
+  width: 100%;
+}
+
+.store-icon {
+  font-size: 200%;
+  margin-top: 60px;
+}
+
+.store-header{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.store-subtitle {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+.btn-store {
+  width: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #003049;
+}
+
+.social-icons {
+  font-size: 3em;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.social-icons:hover{
+  color: #f77f00;
+  }
