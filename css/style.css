@@ -35,7 +35,13 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
+  width: 100%;
   color: rgba(255,255,255,.9);
+}
+
+.parallax {
+  width: 40%;
+  height: 20%;
 }
 
 .parallax-container .section {
@@ -48,8 +54,8 @@ p {
 }
 
 .header{
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 10%;
+  margin-bottom: 4%;
   color: #eae2b7;
 }
 
