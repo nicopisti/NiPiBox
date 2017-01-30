@@ -32,20 +32,16 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 100%;
   line-height: 0;
   height: auto;
   width: 100%;
   color: rgba(255,255,255,.9);
 }
 
-.parallax {
-  width: 40%;
-  height: 20%;
-}
-
 .parallax-container .section {
     width: 100%;
+    height: 100%;
   }
 
 .section-intro {
